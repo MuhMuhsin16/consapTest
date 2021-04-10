@@ -1,0 +1,29 @@
+.alert-danger {
+  margin-top: 1em;
+}
+
+.red {
+  color: red;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: center !important;
+  width: 15%;
+}
+
+.filterDataTable{
+    background-color: rgba(0, 0, 0, 0.644);
+    margin: 1em 0 1em 0;
+    padding: 1em 1em 0 1em;
+    color: rgb(27, 27, 27) !important;
+  }

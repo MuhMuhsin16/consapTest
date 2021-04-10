@@ -1,0 +1,16 @@
+<nav class="navbar sticky-top navbar-light bg-light">
+    <div class="container-fluid justify-content-start row col-12">
+        <div class="col-5">
+            <a class="navbar-brand " [routerLink]="'/home'">App</a>
+        </div>
+        <div class="col-6 justify-content-start">
+            <form class="d-flex">
+                <a class="nav-link active" aria-current="page" [routerLink]="'/home'">Home</a>
+                <a class="nav-link active" aria-current="page" [routerLink]="'/pokemon'">Pokemon List</a>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="content">
+    <router-outlet></router-outlet>
+</div>
